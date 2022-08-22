@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    /* margin:10px; */
+}
+h3{
+    font-size: 20px;
+}
+a{
+    margin-left: 50px;
+}
+div.teoria{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin: 70px;
+  border: 5px solid #e43333;
+}
+table{
+    border-color: blueviolet;
+}
+img.derecha{
+    margin-right: 50px;
+    margin-top: 50px;
+    border: 3px solid #585858;
+}
+img{
+    margin-bottom: 100px;
+}
+ul{
+    margin-left: 50px;
+    margin-right: 120px;
+}
+p{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+strong,b{
+    font-weight: 900;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-Ejemplos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-Ejemplos figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.header {
+    height: 450px;
+    background: url(img/ninos.png) no-repeat center top;
+    background-size: cover;
+
+}
+
+.navbar {
+    height: 63px;
+    background: #212121;
+    border-bottom: 1px dashed #d6e199;
+}
+
+.navbar a {
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 20px;
+}
+
+.title {
+    margin-bottom: 40px;
+    font: 60px;
+    text-transform: uppercase;
+}
+
+p {
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 40px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    padding: 80px 0;
+
+}
+
+.Teoría {
+    
+    background: white;
+    color: #fff;
+}
+
+.Teoría p {
+    max-width: 1055px;
+    margin: 0 auto;
+}
+
+.Ejemplos {
+    background: #3d3f36;
+    color: #fff;
+}
+
+.Ejercicios {
+    background: url(img/stanfor.jpg) no-repeat center top;
+    color: #fff;
+    text-align: left;
+    background-size: cover;
+
+}
+
+.contain {
+    max-width: 1055px;
+    margin: 0 auto;
+} 
+
+.Ejercicios p {
+    max-width: 450px;
+}
+
+.Evaluación {
+    background: #3d3f36;
+    color: #fff;
+    padding-bottom: 0;
+}
+
+.Evaluación.map img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.list-Ejemplos figure {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+
+.list-Ejemplos img {
+    position: relative;
+    z-index: 1;
+}
+
+.list-Ejemplos li {
+    padding: 0 30px;
+}
+
+.list-Ejemplos figcaption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -40px;
+}
